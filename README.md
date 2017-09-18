@@ -32,3 +32,7 @@ courseweb
 * https://wpdatatables.com/crud-system-in-wordpress/
 * http://www.alexkorn.com/blog/2011/03/getting-php-mysql-running-amazon-ec2/#twoInstances
 * https://www.apachefriends.org/docs/hosting-xampp-on-aws.html
+
+Grading Results
+================
+[Link to Google Sheet](https://docs.google.com/spreadsheets/d/12PaZzOkpRXsNNMKl-tujekWyzT8EbDSnxADtY47tXSE/edit?usp=sharing)
