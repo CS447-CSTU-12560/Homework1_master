@@ -21,14 +21,14 @@ instance ขึ้นมาทำงานจากหน้า AWS console ข�
 hw1_xxxxx.zip ให้ xxxxx เป็นเลข 5 ตัวสุดท้ายในรหัสน.ศ.
 
 **เกณฑ์การตรวจการบ้าน:**
-ฐานข้อมูล 15%
-Source code เว็บแอปพลิเคชัน 30%
-คลิปวีดีโอ 55% (แบ่งเป็นวิธีการ Deploy 10%, เริ่มการท างานของ instance และ hardware ที่ใช้ 5%, demo 40%)
-*Extra credit 10% สำหรับน.ศ.ที่ส่งการบ้านด้วย GitHub โดยส่งเพียง URL ของ GitHub ที่มีไฟล์ต่างๆ ในข้อ 5. ไว้ที่กล่องบน
-courseweb*
+* ฐานข้อมูล 15%
+* Source code เว็บแอปพลิเคชัน 30%
+* คลิปวีดีโอ 55% (แบ่งเป็นวิธีการ Deploy 10%, เริ่มการท างานของ instance และ hardware ที่ใช้ 5%, demo 40%)
+* *Extra credit 10%* สำหรับน.ศ.ที่ส่งการบ้านด้วย GitHub โดยส่งเพียง URL ของ GitHub ที่มีไฟล์ต่างๆ ในข้อ 5. ไว้ที่กล่องบน
+courseweb
 
 **แหล่งอ้างอิง:**
-1. https://www.taniarascia.com/create-a-simple-database-app-connecting-to-mysql-with-php/
-2. https://wpdatatables.com/crud-system-in-wordpress/
-3. http://www.alexkorn.com/blog/2011/03/getting-php-mysql-running-amazon-ec2/#twoInstances
-4. https://www.apachefriends.org/docs/hosting-xampp-on-aws.html
+* https://www.taniarascia.com/create-a-simple-database-app-connecting-to-mysql-with-php/
+* https://wpdatatables.com/crud-system-in-wordpress/
+* http://www.alexkorn.com/blog/2011/03/getting-php-mysql-running-amazon-ec2/#twoInstances
+* https://www.apachefriends.org/docs/hosting-xampp-on-aws.html
