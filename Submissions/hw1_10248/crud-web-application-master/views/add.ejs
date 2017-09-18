@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <% include header.ejs %>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <% include span.ejs %>
+
+        <div class="span9">
+
+            <div class="row-fluid">
+                <h2>Add New Record</h2>
+            </div>
+            <div class="row-fluid">
+                <form class="well" method="post" action="/add">
+                  <label>Name</label>
+                  <input type="text" class="span6" placeholder="Item Name" name="item_name" value="">
+
+                  <label>Item Picture (URL)</label>
+                  <input type="text" class="span6" placeholder="URL Ex. www.google.co.th" name="item_picture" value="">
+
+                  <label>Item Price (BAHT)</label>
+                  <input type="text" class="span2" placeholder="Ex. 40" name="item_price" value="">
+
+                  <label>Item Stock (Unit)</label>
+                  <input type="text" class="span2" placeholder="Ex. 10" name="item_stock" value="">
+
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+
+
+        </div>
+
+
+      </div><!--/row-->
+
+      <hr>
+
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/assets/js/jquery.js"></script>
+    <script src="/assets/js/bootstrap-transition.js"></script>
+    <script src="/assets/js/bootstrap-alert.js"></script>
+    <script src="/assets/js/bootstrap-modal.js"></script>
+    <script src="/assets/js/bootstrap-dropdown.js"></script>
+    <script src="/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="/assets/js/bootstrap-tab.js"></script>
+    <script src="/assets/js/bootstrap-tooltip.js"></script>
+    <script src="/assets/js/bootstrap-popover.js"></script>
+    <script src="/assets/js/bootstrap-button.js"></script>
+    <script src="/assets/js/bootstrap-collapse.js"></script>
+    <script src="/assets/js/bootstrap-carousel.js"></script>
+    <script src="/assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>

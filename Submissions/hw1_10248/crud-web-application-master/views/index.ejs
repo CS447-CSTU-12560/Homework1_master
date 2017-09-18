@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <% include header.ejs %>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <% include span.ejs %>
+
+        <div class="span9">
+
+            <div class="row-fluid">
+                <h2>Item List</h2>
+                <p>
+                    Manage record : add, edit, delete.
+                </p>
+            </div>
+            <div id="item-table-div" class="row-fluid">
+
+                <% include item_table.ejs %>
+
+            </div>
+
+
+        </div>
+
+
+      </div><!--/row-->
+
+      <hr>
+
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/assets/js/jquery.js"></script>
+    <script src="/assets/js/bootstrap-transition.js"></script>
+    <script src="/assets/js/bootstrap-alert.js"></script>
+    <script src="/assets/js/bootstrap-modal.js"></script>
+    <script src="/assets/js/bootstrap-dropdown.js"></script>
+    <script src="/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="/assets/js/bootstrap-tab.js"></script>
+    <script src="/assets/js/bootstrap-tooltip.js"></script>
+    <script src="/assets/js/bootstrap-popover.js"></script>
+    <script src="/assets/js/bootstrap-button.js"></script>
+    <script src="/assets/js/bootstrap-collapse.js"></script>
+    <script src="/assets/js/bootstrap-carousel.js"></script>
+    <script src="/assets/js/bootstrap-typeahead.js"></script>
+
+
+  </body>
+</html>
+<script type="text/javascript">
+  var deleteById = (id) => {
+    if(confirm('Are you want to remove this item?')) {
+      $.ajax({
+        url: "/delete",
+        type: "DELETE",
+        data: {item_id: id},
+        success: (success) => {
+          $('#item-table-div').replaceWith(success)
+        },
+        error: (err) => {
+          alert('err!')
+        }
+      });
+    }
+  }
+</script>

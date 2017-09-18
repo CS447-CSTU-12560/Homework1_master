@@ -1,0 +1,6 @@
+Homework 1: Develop a simple CRUD web application //Operating System 2
+//5809610248 Nitipat Wuttisasiwat
+
+source code: https://github.com/kennaruk/crud-web-application
+video clip: https://drive.google.com/open?id=0B6jOFuG9YnRqT20zNEFMLWdaUDA
+database: https://drive.google.com/open?id=0B6jOFuG9YnRqaUZTaW84eEUzbDQ
