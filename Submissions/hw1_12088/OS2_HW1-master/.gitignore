@@ -1,0 +1,4 @@
+/.idea
+/static/composer.lock
+/static/vendor
+/configs/s3.config.php

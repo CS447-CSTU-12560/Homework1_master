@@ -1,0 +1,3 @@
+video deploy & demo : https://youtu.be/C3xVghPfrHI
+
+github : https://github.com/mumoowan/cs447_HW1
